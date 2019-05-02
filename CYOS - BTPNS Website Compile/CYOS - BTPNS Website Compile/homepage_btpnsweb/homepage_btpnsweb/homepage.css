@@ -1,0 +1,178 @@
+
+
+header img{
+    width: 100px
+}
+
+
+
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+.footer{
+    text-align: left;
+    height: 50px;
+    padding-left: 10px;
+    color: #fff;
+    background-color:white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 0;
+    height: 72px;
+}
+
+.right-content {
+    float: right;
+    width: 50%;
+    display: flex;
+}
+
+.left-content {
+    float: left;
+    font-size: 12px;
+    color:black;
+    margin: 0;
+    width: 50%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.header {
+    font-size: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+	
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0 0 0;
+    overflow: hidden;
+}
+
+.menu > ul > li {
+    float: left;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+    line-height: 1.5;
+}
+
+
+.menu li a {
+    display: inline;
+    color:black;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+
+li.dropdown {
+    display:inline;
+    text-align: left;
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+    font-weight: bold;
+    margin-top: 63px;
+    height: 100px;
+}
+
+.isi-dropdown a:hover {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+.isi-dropdown a {
+padding: 0 16px !important;
+padding: 0 16px;
+    color: #3c3c3c !important;
+}
+
+.isi-dropdown a:hover {
+    color: #232323 !important;
+    
+}
+
+
+
+.sidebar{
+	background: orange;
+	float: left;	
+	width: 25%;
+    height: 100%;
+    
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+}
+
+.container1{
+    width: 33.33%;
+    background:#F8F8F8;
+    list-style-type: none;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.container1 ul li  {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.container1 ul li:hover {
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.container2{
+    width: 33.33%;
+    background:#F8F8F8;
+    list-style-type: none;
+    margin-right: 10px;
+    padding: 0;
+}
+
+
+.container2 h1 {
+    margin-top: 0;
+}
+
+.container3{
+    width: 33.33%;
+    background:#F8F8F8;
+    list-style-type: none;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.foto{
+    width: 100%;
+}
