@@ -167,15 +167,22 @@ main {
     clear: both;
 }
 
+.card h2 {
+    margin-right: 0;
+    padding-left: 10px;
+}
+
+.card-link a:hover {
+    font-weight: bold;
+}
+
 h2 {
     background-color: whitesmoke;
-    padding: 20px;
+    padding: 10px 20px;
     color: #f4f4f4;
     margin-inline-end: 20px;
     text-align: left;
     color: orange;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .card a {
