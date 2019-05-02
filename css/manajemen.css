@@ -170,3 +170,9 @@ main {
 .container3 {
     width: 20%;
 }
+
+
+.container1 ul li a, .container12ul li a, .container3 ul li a {
+    text-decoration: none;
+    color: #000;
+}
